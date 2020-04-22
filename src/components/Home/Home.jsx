@@ -12,4 +12,6 @@ const Home = ({ history }) => {
   );
 };
 
+const dummy = "a";
+
 export default Home;

@@ -6,6 +6,6 @@ RUN apt-get update && apt-get -y install yarn
 ADD . /react-quizapp
 WORKDIR /react-quizapp
 
-EXPOSE 3000
+EXPOSE $PORT
 
-RUN npm install
+RUN npm install --only=dev && npm install && npm run build

@@ -1,0 +1,6 @@
+web:
+  build: .
+  command: yarn start
+  stdin_open: true
+  ports:
+    - "3000:3000"

@@ -9,3 +9,4 @@ WORKDIR /react-quizapp
 EXPOSE $PORT
 
 RUN npm install --only=dev && npm install && npm run build
+ENTRYPOINT ["yarn", "start"]

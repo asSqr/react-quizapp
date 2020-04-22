@@ -9,3 +9,5 @@ WORKDIR /react-quizapp
 EXPOSE 3000
 
 RUN npm install
+
+RUN yarn start
